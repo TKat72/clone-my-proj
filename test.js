@@ -45,10 +45,11 @@ function blue(str) {
 function reverseBlue(str) {
     let res = str.split(" ");
     console.log("im here " + res.length)
-    for (let i = res.length; i > 0; i--) {
-        console.log(res[i] + " blue")
-    }
+    // for (let i = res.length; i > 0; i--) {
+    //     console.log(res[i] + " blue")
+    // }
+    res.forEach(test => console.log(test + " blue"));
 }
 
-blue("hello jon milk small")
-reverseBlue("hello jon milk small")
+blue("hello jon milk small hn gfknv glip  ")
+reverseBlue("hello jon milk small milt kmt hmpt ")
