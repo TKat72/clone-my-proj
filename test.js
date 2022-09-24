@@ -42,5 +42,13 @@ function blue(str) {
     }
 }
 
+function reverseBlue(str) {
+    let res = str.split(" ");
+    console.log("im here " + res.length)
+    for (let i = res.length; i > 0; i--) {
+        console.log(res[i] + " blue")
+    }
+}
 
 blue("hello jon milk small")
+reverseBlue("hello jon milk small")
