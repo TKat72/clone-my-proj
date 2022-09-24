@@ -30,3 +30,17 @@ const romanToInt = function (s) {
 };
 
 console.log(romanToInt("LVIIII"))
+
+
+
+function blue(str) {
+    let res = str.split(" ");
+
+    for (let i = 0; i < res.length; i++) {
+
+        console.log(res[i] + " blue")
+    }
+}
+
+
+blue("hello jon milk small")
